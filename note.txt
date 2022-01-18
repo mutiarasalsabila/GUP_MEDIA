@@ -1,0 +1,37 @@
+GUP MEDIA
+
+tabel database:
+	user :
+		email
+		full name
+		password
+
+	internship :
+		users_id
+		phone
+		linkedin_url
+		cv
+		portfolio
+		motiv_letter
+
+	webinar :
+		users_id
+		phone
+		id_line
+		alasan
+		bukti_follow
+
+routing:
+	authcontroller:
+		register
+		login
+		logout
+	publicController
+		index
+		about
+		
+	webinarController
+	InternshipController
+		
+
+	

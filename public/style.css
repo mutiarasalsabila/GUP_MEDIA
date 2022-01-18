@@ -1,0 +1,73 @@
+.more-info {
+    background-color: #C4C4C4;
+    color: black;
+    border-color: #C4C4C4;
+    width: 150px;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    background-color: #EBEBEB;
+}
+
+.background-header {
+    background-color: #EDD07F;
+    opacity: 50%;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.font-size {
+    font-size: 15px;
+}
+
+.rounded-radius {
+    border-radius: 30%;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Select some files';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.custom-file-input:hover::before {
+    border-color: black;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.bg-contact {
+    min-height: 768px;
+    /* The image used */
+    background-image: url("img/bg-contact.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
